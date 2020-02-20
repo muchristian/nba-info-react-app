@@ -1,0 +1,10 @@
+.signin{
+    background-color: white;
+    position: relative;
+    max-width: 500px;
+    top:20px;
+    margin: 0 auto;
+    min-height: 1px;
+    z-index: 999;
+    padding:15px;
+}

@@ -1,0 +1,8 @@
+.content {
+    background-image: url('../../back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 85vh;
+    height:100%;
+    overflow-y: auto;
+    position: relative;
+}
