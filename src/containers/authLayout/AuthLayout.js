@@ -17,7 +17,6 @@ render() {
     return(
         <Fragment>
             <div className="content">
-                <OverLay/>
                 <Switch>
                 <Route path="/" exact component={Signin} />
                 <Route path="/signup" component={Signup} />

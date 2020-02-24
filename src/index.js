@@ -32,7 +32,7 @@ const theme = createMuiTheme({
     
     MuiFormControl:{
       root:{
-        margin:`5px 0 25px`
+        margin:`16px 0 25px`
       }
     },
     MuiFilledInput:{
@@ -51,7 +51,8 @@ const theme = createMuiTheme({
             borderBottom: `2px solid #0277bd`
         }
       
-    },
+        },
+      
     focused: {}
     },
     MuiInputBase:{
@@ -70,9 +71,51 @@ const theme = createMuiTheme({
           backgroundColor: `#3d5afe`
       }
       }
+    },
+    MuiFormHelperText:{
+      root:{
+        color:'#ff3d00'
+      }
+    },
+    MuiPaper:{
+      elevation4:{
+        boxShadow:'0px'
+      }
+  },
+  MuiAppBar:{
+    colorDefault:{
+      backgroundColor:'#ffffff'
+    }
+  },
+  MuiTab:{
+    textColorPrimary:{
+          color:'#0277bd',
+          fontWeight:'bold',
+          '&$selected':{
+            color:'#00c853'
+          }
+    },
+    
+  },
+  MuiButtonBase:{
+    root:{
+      borderBottomStyle:'solid',
+      borderBottomWidth:'2px',
+      
+      '&$selected':{
+        borderBottomColor:'#00c853',
+        borderBottomStyle:'solid',
+      borderBottomWidth:'2px'
+      }
+    }
+  },
+  MuiAvatar:{
+    root:{
+      width: '60px',
+    height: '60px'
     }
   }
-    
+}
 });
 
 

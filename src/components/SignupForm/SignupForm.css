@@ -4,3 +4,11 @@ form{
     padding:15px 0 10px;
     flex-direction: column;
 }
+
+.MuiFilledInput-underline.invalid:before{
+    border-bottom: 2px solid #ff3d00;
+}
+.MuiFilledInput-underline.invalid:after{
+    border-bottom: 2px solid #ff3d00;
+}
+

@@ -4,7 +4,8 @@
   margin: 0;
 }
 .navbar {
-  height:60px;
+  height:65px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
   .toolBar{
     align-items: center;
@@ -37,10 +38,9 @@
     color:#3d5afe;
   }
 
-  main{
-    height:85vh;
-  }
-
+main{
+  min-height: 85vh;
+}
   footer{
     bottom: 0;
     height:45px;
@@ -48,5 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 999;
   }
 
